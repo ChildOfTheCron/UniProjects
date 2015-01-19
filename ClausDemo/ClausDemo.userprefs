@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyScripts\MainMenu\main_LevelSelect.cs">
+    <Files>
+      <File FileName="Assets\MyScripts\MainMenu\main_LevelPan.cs" Line="31" Column="4" />
+      <File FileName="Assets\MyScripts\MiniGames\RotateCamera_Minigame_InputController.cs" Line="39" Column="63" />
+      <File FileName="Assets\MyScripts\MainMenu\main_LevelSelect.cs" Line="30" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
