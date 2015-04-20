@@ -1,0 +1,23 @@
+﻿Build started 24/02/2015 01:59:59.
+     1>Project "C:\Users\Rob\Documents\Visual Studio 2013\Projects\helloWorld\helloWorld\helloWorld.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt helloWorld.cpp
+         helloWorld.cpp
+     1>c:\users\rob\documents\visual studio 2013\projects\helloworld\helloworld\helloworld.cpp(74): warning C4013: 'file_contents' undefined; assuming extern returning int
+     1>c:\users\rob\documents\visual studio 2013\projects\helloworld\helloworld\helloworld.cpp(74): warning C4047: 'initializing' : 'GLchar *' differs in levels of indirection from 'int'
+     1>c:\users\rob\documents\visual studio 2013\projects\helloworld\helloworld\helloworld.cpp(116): warning C4013: 'read_tga' undefined; assuming extern returning int
+     1>c:\users\rob\documents\visual studio 2013\projects\helloworld\helloworld\helloworld.cpp(116): warning C4047: 'initializing' : 'void *' differs in levels of indirection from 'int'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rob\Documents\Visual Studio 2013\Projects\helloWorld\Debug\helloWorld.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rob\Documents\Visual Studio 2013\Projects\helloWorld\Debug\helloWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rob\Documents\Visual Studio 2013\Projects\helloWorld\Debug\helloWorld.lib" /MACHINE:X86 Debug\util.obj
+         Debug\helloWorld.obj
+         Debug\stdafx.obj
+         "..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\Release\Win32\glew32.lib"
+         "..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\Release\Win32\glew32s.lib"
+         "..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\OpenGL32.Lib"
+         ..\glut32.lib
+         helloWorld.vcxproj -> C:\Users\Rob\Documents\Visual Studio 2013\Projects\helloWorld\Debug\helloWorld.exe
+     1>Done Building Project "C:\Users\Rob\Documents\Visual Studio 2013\Projects\helloWorld\helloWorld\helloWorld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81

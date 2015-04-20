@@ -1,0 +1,17 @@
+﻿Build started 20/04/2015 02:46:17.
+     1>Project "C:\Users\Rob\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Rob\Desktop\OculusSDK\LibOVR\Src /IC:\Users\Rob\Desktop\OculusSDK\LibOVR\Include /I"C:\Users\Rob\Desktop\glew-1.12.0\include" /I"C:\Users\Rob\Desktop\glfw-3.1.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>c:\users\rob\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(186): warning C4101: 'c' : unreferenced local variable
+     1>c:\users\rob\documents\visual studio 2013\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(182): warning C4715: 'buildOpenGLDemo' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rob\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Rob\Desktop\OculusSDK\LibOVR\Lib\Win32\VS2013 /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" Winmm.lib ws2_32.lib libovrd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rob\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rob\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         Debug\stdafx.obj
+         glfw3dll.lib
+         ConsoleApplication1.vcxproj -> C:\Users\Rob\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\Rob\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.48
